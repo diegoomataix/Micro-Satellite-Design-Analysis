@@ -1,0 +1,6 @@
+xdb:C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Analisis\Random_MSC\Eje z\model_sine_msc_random_z.xdb
+Response:Stre
+Log_Lin:Log
+Factor:3.0
+Rfile:C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random_stress_z.rnd
+Option:RMS

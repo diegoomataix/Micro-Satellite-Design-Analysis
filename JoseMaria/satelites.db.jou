@@ -7461,3 +7461,978 @@ ga_view_zoom_set( 0.473306 )
 ga_view_center_set( -0.262061, 0.079312 )
 ga_view_aa_set( -89.260811, -6.587792, 2.536588 )
 ga_view_aa_set( -74.425766, -14.043113, -172.176956 )
+ga_view_aa_set( -80.653542, 10.631163, 13.350390 )
+ga_view_aa_set( -79.625404, 5.442453, -15.473274 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "SC1:FREQS",  @
+"A4:Mode 2 : Freq. = 103.99", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "SC1:FREQS",  @
+"A4:Mode 2 : Freq. = 103.99", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -68.558151, -9.330050, -75.696831 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "SC1:FREQS",  @
+"A4:Mode 3 : Freq. = 134.44", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "SC1:FREQS",  @
+"A4:Mode 3 : Freq. = 134.44", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -81.413948, 6.614014, -88.085938 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "SC1:FREQS",  @
+"A4:Mode 4 : Freq. = 141.9", "Eigenvectors", "Translational", "(NON-LAYERED)", @
+ "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "SC1:FREQS",  @
+"A4:Mode 4 : Freq. = 141.9", "Eigenvectors", "Translational", "(NON-LAYERED)", @
+ "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -88.910683, 6.347767, -89.130356 )
+display_cleanup(  )
+ga_view_aa_set( -89.536064, -8.943618, -134.704041 )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( -65.050247, -0.892740, -132.100601 )
+uil_toolbar.wireframe(  )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( -79.028648, -0.086563, -129.218826 )
+ga_display_shrfem_set( "general", 0.30000001 )
+ga_display_shrfem_set( "general", 0. )
+ga_view_aa_set( -74.161179, -6.670088, -145.978516 )
+ga_view_aa_set( -109.872314, -7.417451, -122.445305 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+result_label_format_set( 1, 4 )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_aa_set( -65.849121, -12.767294, -135.857925 )
+ga_view_center_set( 0.001815, 0.000811 )
+ga_view_zoom_set( 0.439074 )
+ga_view_center_set( 0.003694, 0.001546 )
+ga_view_zoom_set( 0.390288 )
+ga_view_center_set( 0.006701, 0.003246 )
+ga_view_zoom_set( 0.312230 )
+ga_view_center_set( 0.009316, 0.005233 )
+ga_view_zoom_set( 0.249784 )
+ga_view_center_set( 0.010479, 0.006117 )
+ga_view_zoom_set( 0.222030 )
+ga_view_center_set( 0.011594, 0.007150 )
+ga_view_zoom_set( 0.197360 )
+ga_view_aa_set( -128.796463, -6.679506, -141.775848 )
+ga_view_center_set( 0.010809, 0.000662 )
+ga_view_zoom_set( 0.222030 )
+ga_view_center_set( 0.009926, -0.006637 )
+ga_view_zoom_set( 0.249784 )
+ga_view_center_set( 0.008932, -0.014848 )
+ga_view_zoom_set( 0.281007 )
+ga_view_aa_set( -115.331390, -8.785350, -138.351364 )
+ga_view_center_set( 0.006167, -0.022556 )
+ga_view_zoom_set( 0.316133 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "SC1:FREQS",  @
+"A4:Mode 3 : Freq. = 134.44", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "SC1:FREQS",  @
+"A4:Mode 3 : Freq. = 134.44", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -82.920547, -12.937208, -101.853935 )
+ga_view_aa_set( -83.003250, 1.292968, -95.276726 )
+ga_view_center_set( 0.000541, -0.024078 )
+ga_view_zoom_set( 0.355650 )
+ga_view_center_set( -0.005789, -0.025791 )
+ga_view_zoom_set( 0.400106 )
+ga_view_center_set( -0.012910, -0.027718 )
+ga_view_zoom_set( 0.450119 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 03-Jun-21 23:33:53
+$# Appending to existing journal file 
+$# C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\satelites.db.jou at 04-Jun-21 09:37:50
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Com" // @
+"pleto" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+display_cleanup(  )
+ga_display_shrfem_set( "general", 0.30000001 )
+ga_display_shrfem_set( "general", 0. )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( -91.772156, -1.512115, -133.234482 )
+gm_visibility_widget( " Point 1:376 Curve 1:526 Surface 1:252", FALSE )
+ga_view_aa_set( -74.772156, -1.512113, -133.234482 )
+ga_view_center_set( 0.020354, 0.014111 )
+ga_view_zoom_set( 0.349424 )
+ga_view_center_set( 0.038758, 0.026663 )
+ga_view_zoom_set( 0.310599 )
+ga_view_center_set( 0.055118, 0.037819 )
+ga_view_zoom_set( 0.276088 )
+ga_view_center_set( 0.069660, 0.047737 )
+ga_view_zoom_set( 0.245411 )
+ga_view_center_set( 0.092926, 0.063604 )
+ga_view_zoom_set( 0.196329 )
+ga_view_center_set( 0.111540, 0.076298 )
+ga_view_zoom_set( 0.157063 )
+ga_view_center_set( 0.102233, 0.069951 )
+ga_view_zoom_set( 0.176696 )
+ga_view_center_set( 0.091763, 0.062811 )
+ga_view_zoom_set( 0.198783 )
+ga_view_center_set( 0.079984, 0.054778 )
+ga_view_zoom_set( 0.223631 )
+ga_view_center_set( 0.066733, 0.045741 )
+ga_view_zoom_set( 0.251585 )
+ga_view_center_set( 0.051825, 0.035574 )
+ga_view_zoom_set( 0.283033 )
+ga_view_center_set( 0.035054, 0.024136 )
+ga_view_zoom_set( 0.318412 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "SC1:FREQS",  @
+"A4:Mode 538 : Freq. = 2000.", "Eigenvectors", "Translational",  @
+"(NON-LAYERED)", "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "SC1:FREQS",  @
+"A4:Mode 538 : Freq. = 2000.", "Eigenvectors", "Translational",  @
+"(NON-LAYERED)", "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_center_set( -0.014748, 0.010869 )
+ga_view_zoom_set( 0.358214 )
+ga_view_center_set( -0.126502, -0.018982 )
+ga_view_zoom_set( 0.447767 )
+ga_view_center_set( -0.195786, -0.037639 )
+ga_view_zoom_set( 0.503738 )
+ga_view_center_set( -0.273730, -0.058628 )
+ga_view_zoom_set( 0.566705 )
+ga_view_aa_set( -96.167984, 7.396557, 30.356928 )
+display_cleanup(  )
+uil_toolbar.shaded_smooth(  )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\Users\jsmve\Documents\NASTRAN\Practica " // @
+"3\Satelite_Completo\satelites.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\Users\jsmve\Documents\NASTRAN\Pract" // @
+"ica 3\Satelite_Completo\Analisis\Sine\Eje x\model_sine_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Analisis\Si" // @
+"ne\Eje x\model_sine_x.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\Analisis\Sine\Eje x\model_sine_x.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/4/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2783 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1: MODEL SINE VIBRATION X
+$# Processing result sub-case: Freq.= 2.
+$# Processing result sub-case: Freq.= 3.
+$# Processing result sub-case: Freq.= 4.
+$# Processing result sub-case: Freq.= 5.
+$# Processing result sub-case: Freq.= 6.
+$# Processing result sub-case: Freq.= 7.
+$# Processing result sub-case: Freq.= 8.
+$# Processing result sub-case: Freq.= 9.
+$# Processing result sub-case: Freq.= 10.
+$# Processing result sub-case: Freq.= 11.
+$# Processing result sub-case: Freq.= 12.
+$# Processing result sub-case: Freq.= 13.
+$# Processing result sub-case: Freq.= 14.
+$# Processing result sub-case: Freq.= 15.
+$# Processing result sub-case: Freq.= 16.
+$# Processing result sub-case: Freq.= 17.
+$# Processing result sub-case: Freq.= 18.
+$# Processing result sub-case: Freq.= 19.
+$# Processing result sub-case: Freq.= 20.
+$# Processing result sub-case: Freq.= 21.
+$# Processing result sub-case: Freq.= 22.
+$# Processing result sub-case: Freq.= 23.
+$# Processing result sub-case: Freq.= 24.
+$# Processing result sub-case: Freq.= 25.
+$# Processing result sub-case: Freq.= 26.
+$# Processing result sub-case: Freq.= 27.
+$# Processing result sub-case: Freq.= 28.
+$# Processing result sub-case: Freq.= 29.
+$# Processing result sub-case: Freq.= 30.
+$# Processing result sub-case: Freq.= 31.
+$# Processing result sub-case: Freq.= 32.
+$# Processing result sub-case: Freq.= 33.
+$# Processing result sub-case: Freq.= 34.
+$# Processing result sub-case: Freq.= 35.
+$# Processing result sub-case: Freq.= 36.
+$# Processing result sub-case: Freq.= 37.
+$# Processing result sub-case: Freq.= 38.
+$# Processing result sub-case: Freq.= 39.
+$# Processing result sub-case: Freq.= 40.
+$# Processing result sub-case: Freq.= 41.
+$# Processing result sub-case: Freq.= 42.
+$# Processing result sub-case: Freq.= 43.
+$# Processing result sub-case: Freq.= 44.
+$# Processing result sub-case: Freq.= 45.
+$# Processing result sub-case: Freq.= 46.
+$# Processing result sub-case: Freq.= 47.
+$# Processing result sub-case: Freq.= 48.
+$# Processing result sub-case: Freq.= 49.
+$# Processing result sub-case: Freq.= 50.
+$# Processing result sub-case: Freq.= 51.
+$# Processing result sub-case: Freq.= 52.
+$# Processing result sub-case: Freq.= 53.
+$# Processing result sub-case: Freq.= 54.
+$# Processing result sub-case: Freq.= 55.
+$# Processing result sub-case: Freq.= 56.
+$# Processing result sub-case: Freq.= 57.
+$# Processing result sub-case: Freq.= 58.
+$# Processing result sub-case: Freq.= 59.
+$# Processing result sub-case: Freq.= 60.
+$# Processing result sub-case: Freq.= 61.
+$# Processing result sub-case: Freq.= 62.
+$# Processing result sub-case: Freq.= 63.
+$# Processing result sub-case: Freq.= 64.
+$# Processing result sub-case: Freq.= 65.
+$# Processing result sub-case: Freq.= 66.
+$# Processing result sub-case: Freq.= 67.
+$# Processing result sub-case: Freq.= 68.
+$# Processing result sub-case: Freq.= 69.
+$# Processing result sub-case: Freq.= 70.
+$# Processing result sub-case: Freq.= 71.
+$# Processing result sub-case: Freq.= 72.
+$# Processing result sub-case: Freq.= 72.78954
+$# Processing result sub-case: Freq.= 73.
+$# Processing result sub-case: Freq.= 74.
+$# Processing result sub-case: Freq.= 75.
+$# Processing result sub-case: Freq.= 76.
+$# Processing result sub-case: Freq.= 77.
+$# Processing result sub-case: Freq.= 78.
+$# Processing result sub-case: Freq.= 79.
+$# Processing result sub-case: Freq.= 80.
+$# Processing result sub-case: Freq.= 81.
+$# Processing result sub-case: Freq.= 82.
+$# Processing result sub-case: Freq.= 83.
+$# Processing result sub-case: Freq.= 84.
+$# Processing result sub-case: Freq.= 85.
+$# Processing result sub-case: Freq.= 86.
+$# Processing result sub-case: Freq.= 87.
+$# Processing result sub-case: Freq.= 88.
+$# Processing result sub-case: Freq.= 88.3873
+$# Processing result sub-case: Freq.= 89.
+$# Processing result sub-case: Freq.= 90.
+$# Processing result sub-case: Freq.= 91.
+$# Processing result sub-case: Freq.= 92.
+$# Processing result sub-case: Freq.= 93.
+$# Processing result sub-case: Freq.= 94.
+$# Processing result sub-case: Freq.= 94.10951
+$# Processing result sub-case: Freq.= 95.
+$# Processing result sub-case: Freq.= 96.
+$# Processing result sub-case: Freq.= 97.
+$# Processing result sub-case: Freq.= 98.
+$# Processing result sub-case: Freq.= 99.
+$# Processing result sub-case: Freq.= 99.33264
+$# Processing result sub-case: Freq.= 100.
+$# Total execution time in real seconds:        2.000
+$# Total execution time in CPU  seconds:        1.891
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A5:Freq.= 100.", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A5:Freq.= 100."], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_aa_set( -59.671680, 3.821366, -172.462646 )
+ga_view_aa_set( -68.447662, -0.850212, -177.801468 )
+ga_view_center_set( -0.237764, -0.077297 )
+ga_view_zoom_set( 0.503738 )
+ga_view_center_set( -0.182243, -0.113242 )
+ga_view_zoom_set( 0.402990 )
+ga_view_center_set( -0.121675, -0.152455 )
+ga_view_zoom_set( 0.293084 )
+ga_view_center_set( -0.103620, -0.164073 )
+ga_view_zoom_set( 0.260519 )
+ga_view_center_set( -0.062560, -0.188471 )
+ga_view_zoom_set( 0.189468 )
+ga_view_center_set( -0.050113, -0.195418 )
+ga_view_zoom_set( 0.168416 )
+ga_view_center_set( -0.030196, -0.206533 )
+ga_view_zoom_set( 0.134733 )
+ga_view_center_set( -0.014263, -0.215425 )
+ga_view_zoom_set( 0.107786 )
+ga_view_center_set( -0.020875, -0.211701 )
+ga_view_zoom_set( 0.121260 )
+ga_view_center_set( -0.035855, -0.204236 )
+ga_view_zoom_set( 0.151575 )
+ga_view_center_set( -0.054707, -0.195033 )
+ga_view_zoom_set( 0.189468 )
+ga_view_center_set( -0.078430, -0.184004 )
+ga_view_zoom_set( 0.236836 )
+ga_view_center_set( -0.111456, -0.176566 )
+ga_view_zoom_set( 0.296044 )
+ga_view_center_set( -0.134081, -0.173652 )
+ga_view_zoom_set( 0.333050 )
+ga_view_center_set( -0.160092, -0.171072 )
+ga_view_zoom_set( 0.374681 )
+ga_view_center_set( -0.189824, -0.169268 )
+ga_view_zoom_set( 0.421516 )
+ga_view_center_set( -0.223274, -0.167238 )
+ga_view_zoom_set( 0.474206 )
+ga_view_center_set( -0.260904, -0.164954 )
+ga_view_zoom_set( 0.533482 )
+ga_view_center_set( -0.345574, -0.159816 )
+ga_view_zoom_set( 0.666852 )
+ga_view_aa_set( -55.876633, -0.197689, -157.492767 )
+ga_view_center_set( -0.294067, -0.176571 )
+ga_view_zoom_set( 0.592757 )
+ga_view_center_set( -0.248284, -0.191465 )
+ga_view_zoom_set( 0.526895 )
+ga_view_center_set( -0.175030, -0.215294 )
+ga_view_zoom_set( 0.421516 )
+ga_view_center_set( -0.142159, -0.225728 )
+ga_view_zoom_set( 0.374681 )
+ga_view_center_set( -0.112941, -0.235002 )
+ga_view_zoom_set( 0.333050 )
+ga_view_center_set( -0.086845, -0.243123 )
+ga_view_zoom_set( 0.296044 )
+ga_view_center_set( -0.063648, -0.250340 )
+ga_view_zoom_set( 0.263151 )
+ga_view_center_set( -0.043029, -0.256560 )
+ga_view_zoom_set( 0.233912 )
+ga_view_center_set( -0.024701, -0.262089 )
+ga_view_zoom_set( 0.207921 )
+ga_view_center_set( -0.008409, -0.267004 )
+ga_view_zoom_set( 0.184819 )
+ga_view_center_set( 0.006072, -0.271372 )
+ga_view_zoom_set( 0.164284 )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A5:Freq.= 73.", "Stress Tensor", "", "At Z1", "VONM", "AsIs", "DeriveAverage" @
+, "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A5:Freq.= 73."], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A5:Freq.= 74.", "Stress Tensor", "", "At Z1", "VONM", "AsIs", "DeriveAverage" @
+, "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A5:Freq.= 74."], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A5:Freq.= 86.", "Stress Tensor", "", "At Z1", "VONM", "AsIs", "DeriveAverage" @
+, "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A5:Freq.= 86."], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A5:Freq.= 99.33264", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A5:Freq.= 99.33264"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A5:Freq.= 100.", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A5:Freq.= 100."], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_center_set( -0.003525, -0.272782 )
+ga_view_zoom_set( 0.184819 )
+ga_view_center_set( -0.014322, -0.274369 )
+ga_view_zoom_set( 0.207921 )
+ga_view_center_set( -0.026468, -0.276154 )
+ga_view_zoom_set( 0.233912 )
+ga_view_aa_set( -62.995483, -2.323873, -161.994797 )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A5:Freq.= 100.", "Bar Stresses", "Bending", "At Point C", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION X", @
+ "SC1: MODEL SINE VIBRATION X", "SC1: MODEL SINE VIBRATION X"], [ @
+"A5:Freq.= 100.", "A5:Freq.= 100.", "A5:Freq.= 100."], ["Bar Stresses",  @
+"Bar Stresses", "Bar Stresses"], ["Bending", "Bending", "Bending"], [ @
+"At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A5:Freq.= 100.", "Beam Stresses", "Combined", "At Point C", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION X", @
+ "SC1: MODEL SINE VIBRATION X", "SC1: MODEL SINE VIBRATION X"], [ @
+"A5:Freq.= 100.", "A5:Freq.= 100.", "A5:Freq.= 100."], ["Beam Stresses",  @
+"Beam Stresses", "Beam Stresses"], ["Combined", "Combined", "Combined"], [ @
+"At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\Users\jsmve\Documents\NASTRAN\Practica " // @
+"3\Satelite_Completo\satelites.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\Users\jsmve\Documents\NASTRAN\Pract" // @
+"ica 3\Satelite_Completo\Analisis\Sine\Eje z\model_sine_z.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Analisis\Si" // @
+"ne\Eje z\model_sine_z.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\Analisis\Sine\Eje z\model_sine_z.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/4/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2781 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1: MODEL SINE VIBRATION Z
+$# Processing result sub-case: Freq.= 4.
+$# Processing result sub-case: Freq.= 5.
+$# Processing result sub-case: Freq.= 6.
+$# Processing result sub-case: Freq.= 7.
+$# Processing result sub-case: Freq.= 8.
+$# Processing result sub-case: Freq.= 9.
+$# Processing result sub-case: Freq.= 10.
+$# Processing result sub-case: Freq.= 11.
+$# Processing result sub-case: Freq.= 12.
+$# Processing result sub-case: Freq.= 13.
+$# Processing result sub-case: Freq.= 14.
+$# Processing result sub-case: Freq.= 15.
+$# Processing result sub-case: Freq.= 16.
+$# Processing result sub-case: Freq.= 17.
+$# Processing result sub-case: Freq.= 18.
+$# Processing result sub-case: Freq.= 19.
+$# Processing result sub-case: Freq.= 20.
+$# Processing result sub-case: Freq.= 21.
+$# Processing result sub-case: Freq.= 22.
+$# Processing result sub-case: Freq.= 23.
+$# Processing result sub-case: Freq.= 24.
+$# Processing result sub-case: Freq.= 25.
+$# Processing result sub-case: Freq.= 26.
+$# Processing result sub-case: Freq.= 27.
+$# Processing result sub-case: Freq.= 28.
+$# Processing result sub-case: Freq.= 29.
+$# Processing result sub-case: Freq.= 30.
+$# Processing result sub-case: Freq.= 31.
+$# Processing result sub-case: Freq.= 32.
+$# Processing result sub-case: Freq.= 33.
+$# Processing result sub-case: Freq.= 34.
+$# Processing result sub-case: Freq.= 35.
+$# Processing result sub-case: Freq.= 36.
+$# Processing result sub-case: Freq.= 37.
+$# Processing result sub-case: Freq.= 38.
+$# Processing result sub-case: Freq.= 39.
+$# Processing result sub-case: Freq.= 40.
+$# Processing result sub-case: Freq.= 41.
+$# Processing result sub-case: Freq.= 42.
+$# Processing result sub-case: Freq.= 43.
+$# Processing result sub-case: Freq.= 44.
+$# Processing result sub-case: Freq.= 45.
+$# Processing result sub-case: Freq.= 46.
+$# Processing result sub-case: Freq.= 47.
+$# Processing result sub-case: Freq.= 48.
+$# Processing result sub-case: Freq.= 49.
+$# Processing result sub-case: Freq.= 50.
+$# Processing result sub-case: Freq.= 51.
+$# Processing result sub-case: Freq.= 52.
+$# Processing result sub-case: Freq.= 53.
+$# Processing result sub-case: Freq.= 54.
+$# Processing result sub-case: Freq.= 55.
+$# Processing result sub-case: Freq.= 56.
+$# Processing result sub-case: Freq.= 57.
+$# Processing result sub-case: Freq.= 58.
+$# Processing result sub-case: Freq.= 59.
+$# Processing result sub-case: Freq.= 60.
+$# Processing result sub-case: Freq.= 61.
+$# Processing result sub-case: Freq.= 62.
+$# Processing result sub-case: Freq.= 63.
+$# Processing result sub-case: Freq.= 64.
+$# Processing result sub-case: Freq.= 65.
+$# Processing result sub-case: Freq.= 66.
+$# Processing result sub-case: Freq.= 67.
+$# Processing result sub-case: Freq.= 68.
+$# Processing result sub-case: Freq.= 69.
+$# Processing result sub-case: Freq.= 70.
+$# Processing result sub-case: Freq.= 71.
+$# Processing result sub-case: Freq.= 72.
+$# Processing result sub-case: Freq.= 72.78954
+$# Processing result sub-case: Freq.= 73.
+$# Processing result sub-case: Freq.= 74.
+$# Processing result sub-case: Freq.= 75.
+$# Processing result sub-case: Freq.= 76.
+$# Processing result sub-case: Freq.= 77.
+$# Processing result sub-case: Freq.= 78.
+$# Processing result sub-case: Freq.= 79.
+$# Processing result sub-case: Freq.= 80.
+$# Processing result sub-case: Freq.= 81.
+$# Processing result sub-case: Freq.= 82.
+$# Processing result sub-case: Freq.= 83.
+$# Processing result sub-case: Freq.= 84.
+$# Processing result sub-case: Freq.= 85.
+$# Processing result sub-case: Freq.= 86.
+$# Processing result sub-case: Freq.= 87.
+$# Processing result sub-case: Freq.= 88.
+$# Processing result sub-case: Freq.= 88.3873
+$# Processing result sub-case: Freq.= 89.
+$# Processing result sub-case: Freq.= 90.
+$# Processing result sub-case: Freq.= 91.
+$# Processing result sub-case: Freq.= 92.
+$# Processing result sub-case: Freq.= 93.
+$# Processing result sub-case: Freq.= 94.
+$# Processing result sub-case: Freq.= 94.10951
+$# Processing result sub-case: Freq.= 95.
+$# Processing result sub-case: Freq.= 96.
+$# Processing result sub-case: Freq.= 97.
+$# Processing result sub-case: Freq.= 98.
+$# Processing result sub-case: Freq.= 99.
+$# Processing result sub-case: Freq.= 99.33264
+$# Processing result sub-case: Freq.= 100.
+$# Total execution time in real seconds:        2.000
+$# Total execution time in CPU  seconds:        1.859
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION Z",  @
+"A6:Freq.= 100.", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION Z"] @
+, ["A6:Freq.= 100."], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_center_set( -0.046499, -0.276497 )
+ga_view_zoom_set( 0.263151 )
+ga_view_center_set( -0.069034, -0.276882 )
+ga_view_zoom_set( 0.296044 )
+ga_view_center_set( -0.094387, -0.277316 )
+ga_view_zoom_set( 0.333050 )
+ga_view_center_set( -0.122908, -0.277805 )
+ga_view_zoom_set( 0.374681 )
+ga_view_center_set( -0.175363, -0.127932 )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION Z",  @
+"A6:Freq.= 100.", "Bar Stresses", "Bending", "At Point C", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION Z", @
+ "SC1: MODEL SINE VIBRATION Z", "SC1: MODEL SINE VIBRATION Z"], [ @
+"A6:Freq.= 100.", "A6:Freq.= 100.", "A6:Freq.= 100."], ["Bar Stresses",  @
+"Bar Stresses", "Bar Stresses"], ["Bending", "Bending", "Bending"], [ @
+"At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION Z",  @
+"A6:Freq.= 100.", "Beam Stresses", "Combined", "At Point C", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION Z", @
+ "SC1: MODEL SINE VIBRATION Z", "SC1: MODEL SINE VIBRATION Z"], [ @
+"A6:Freq.= 100.", "A6:Freq.= 100.", "A6:Freq.= 100."], ["Beam Stresses",  @
+"Beam Stresses", "Beam Stresses"], ["Combined", "Combined", "Combined"], [ @
+"At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION Z",  @
+"A6:Freq.= 100.", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+fields_create( "Random_input", "Non-Spatial", 1, "Scalar", "Real", "", "",  @
+"Table", 1, "f", "", "", "", "", "", FALSE, [20., 2000.], [0.], [0.], [[[ @
+0.072700001]][[0.072700001]]] )
+$# Field "Random_input" created.
+$#  MSC Random Platform Type = WINNT
+$# Install Location =C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/
+$#  Patran Version = 26.0.758311
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-99IT6RQ(
+$# 681401399729) (Windows 6.2 (Build 9200: Service Pack 0)) at 04-Jun-21 
+$# 11:37:17.
+$# Working directory is:
+$# STRING working_dir[256] = "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Sat" // @
+$#    "elite_Completo"
+$# Submiting Patran Random
+$# Path = C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/msc_prandom  
+$# "C:\Us
+$# subcase file C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\model
+$#  was found
+$# 1 subcases found in .xdb file
+$# 1:MODEL SINE4RANDOM VIBRATION X
+$#  MSC Random Platform Type = WINNT
+random_randps_input.create_randps_file( "C:\Users\jsmve\Documents\NASTRAN\" // @
+"Practica 3\Satelite_Completo\Random_stress_x.rnd", 1, [1], [1], [1.], [0.], [ @
+5], FALSE, ["log"], ["log"] )
+random_rms_select.create_input_file2( "C:\Users\jsmve\Documents\NASTRAN\Pr" // @
+"actica 3\Satelite_Completo\Random_stress_x.inp", "Random_stress_x",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random_stre" // @
+"ss_x.rnd", "C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo" // @
+"\Analisis\Random_MSC\Eje x\model_sine_msc_random.xdb", "Stre", 0, 3., "Log",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Analisis\Ra" // @
+"ndom_MSC\Eje x" )
+$#  MSC Random Platform Type = WINNT
+patran_random.submit_random( "C:\Program Files\MSC.Software\NaPa_SE\2020\P" // @
+"atran/bin/msc_prandom", ["""C:\Users\jsmve\Documents\NASTRAN\Practica 3\S" // @
+"atelite_Completo\Random_stress_x.inp""", ""], 1 )
+$# Submiting Patran Random
+$# Path = C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/msc_prandom  
+$# "C:\Us
+random_rms_select.check_for_errors( "C:\Users\jsmve\Documents\NASTRAN\Prac" // @
+"tica 3\Satelite_Completo\Random_stress_x.log",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random_stre" // @
+"ss_x.inp" )
+random_rms_select.import_rms_results( "Random_stress_x",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random_stre" // @
+"ss_x.pat" )
+$#  MSC Random Platform Type = WINNT
+$# Create subcase titles...
+$# Create subcase...
+$# Process results file...
+$# Reading res type = Stresses......
+$# Storing Stresses... for 1920 entities, entity type = 34...
+$#  element = cbar 
+$# Store for 1920 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 60 entities, entity type = 2...
+$#  element = cbeam 
+$# Store for 60 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 4720 entities, entity type = 33...
+$#  element = cquad, num_comp = 8
+$# Store for 4720 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 12 entities, entity type = 102...
+$#  element = cbush 
+$# Store for 12 Stresses... entities complete
+$#  Import Complete.
+res_data_load_dbresult( 0, "ENodal", "Scalar", "RMS", "Random-stress-x",  @
+"Shell Stresses", "Von-Mises", "At Z1", "", "AsIs", "DeriveAverage", "Element" @
+, "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["RMS"], ["Random-stress-x"], [ @
+"Shell Stresses"], ["Von-Mises"], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "RMS", "Random-stress-x",  @
+"Bar Stresses", "Combined", "At Point C", "", "AsIs", "DeriveAverage",  @
+"Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["RMS", "RMS", "RMS"], [ @
+"Random-stress-x", "Random-stress-x", "Random-stress-x"], ["Bar Stresses",  @
+"Bar Stresses", "Bar Stresses"], ["Combined", "Combined", "Combined"], [ @
+"At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+$# Working directory is:
+$# STRING working_dir[256] = "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Sat" // @
+$#    "elite_Completo"
+$# Submiting Patran Random
+$# Path = C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/msc_prandom  
+$# "C:\Us
+$# subcase file C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\model
+$#  was found
+$# 1 subcases found in .xdb file
+$# 1:MODEL SINE4RANDOM VIBRATION X
+$# Working directory is:
+$# STRING working_dir[256] = "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Sat" // @
+$#    "elite_Completo"
+$# Submiting Patran Random
+$# Path = C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/msc_prandom  
+$# "C:\Us
+$# subcase file C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\model
+$#  was found
+$# 1 subcases found in .xdb file
+$# 1:MODEL SINE4RANDOM VIBRATION Z
+random_randps_input.create_randps_file( "C:\Users\jsmve\Documents\NASTRAN\" // @
+"Practica 3\Satelite_Completo\Random_stress_z.rnd", 1, [1], [1], [1.], [0.], [ @
+5], FALSE, ["log"], ["log"] )
+random_rms_select.create_input_file2( "C:\Users\jsmve\Documents\NASTRAN\Pr" // @
+"actica 3\Satelite_Completo\Random_stress_z.inp", "Random_stress_z",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random_stre" // @
+"ss_z.rnd", "C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo" // @
+"\Analisis\Random_MSC\Eje z\model_sine_msc_random_z.xdb", "Stre", 0, 3., "Log" @
+, "C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Analisis\" // @
+"Random_MSC\Eje z" )
+$#  MSC Random Platform Type = WINNT
+patran_random.submit_random( "C:\Program Files\MSC.Software\NaPa_SE\2020\P" // @
+"atran/bin/msc_prandom", ["""C:\Users\jsmve\Documents\NASTRAN\Practica 3\S" // @
+"atelite_Completo\Random_stress_z.inp""", ""], 1 )
+$# Submiting Patran Random
+$# Path = C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/msc_prandom  
+$# "C:\Us
+random_rms_select.check_for_errors( "C:\Users\jsmve\Documents\NASTRAN\Prac" // @
+"tica 3\Satelite_Completo\Random_stress_z.log",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random_stre" // @
+"ss_z.inp" )
+random_rms_select.import_rms_results( "Random_stress_z",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random_stre" // @
+"ss_z.pat" )
+$#  MSC Random Platform Type = WINNT
+$# Create subcase titles...
+$# Create subcase...
+$# Process results file...
+$# Reading res type = Stresses......
+$# Storing Stresses... for 1920 entities, entity type = 34...
+$#  element = cbar 
+$# Store for 1920 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 60 entities, entity type = 2...
+$#  element = cbeam 
+$# Store for 60 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 4720 entities, entity type = 33...
+$#  element = cquad, num_comp = 8
+$# Store for 4720 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 12 entities, entity type = 102...
+$#  element = cbush 
+$# Store for 12 Stresses... entities complete
+$#  Import Complete.
+res_data_load_dbresult( 0, "ENodal", "Scalar", "RMS", "Random-stress-z",  @
+"Shell Stresses", "Von-Mises", "At Z1", "", "AsIs", "DeriveAverage", "Element" @
+, "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["RMS"], ["Random-stress-z"], [ @
+"Shell Stresses"], ["Von-Mises"], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "RMS", "Random-stress-z",  @
+"Bar Stresses", "Combined", "At Point C", "", "AsIs", "DeriveAverage",  @
+"Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["RMS", "RMS", "RMS"], [ @
+"Random-stress-z", "Random-stress-z", "Random-stress-z"], ["Bar Stresses",  @
+"Bar Stresses", "Bar Stresses"], ["Combined", "Combined", "Combined"], [ @
+"At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 04-Jun-21 12:06:56
