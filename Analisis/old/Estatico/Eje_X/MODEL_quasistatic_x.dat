@@ -1,0 +1,47 @@
+$ Direct Text Input for Nastran System Cell Section
+NASTRAN SYSTEM(151)=1
+NASTRAN BUFFSIZE=65537
+NASTRAN DBCFACT=4
+SOL 101
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = Quasi_Static_X
+ECHO = NONE
+LINES=50000
+SUBCASE 1
+ $Subcase name : QStatic_X
+   SUBTITLE=QStatic_X
+   SPC = 2
+   LOAD = 11
+$   DISPLACEMENT(SORT1,REAL)=ALL
+$   SET 102 = 2001,2002,2003,2004,2011,2012,2013,2014,
+$             2021,2022,2023,2024,2031,2032,2033,2034,
+$             2041,2042,2043,2044,2051,2052,2053,2054
+   SPCFORCES(SORT1,PHASE)=ALL
+$   FORCES(SORT1,PHASE)=ALL
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+$ Loads for Load Case : LoadCase_Bandeja_sup
+SPCADD   2       1
+$ Loads for Load Case : QStatic_X
+LOAD     11      9.81      1.       2      0.       3      0.       4
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Displacement Constraints of Load Set : SPC_123
+SPC1     1       123     1000    1040    1041    1073    1074    1098
+         1099    1115    1116    1124    1125    1157    1158    1182
+         1183    1199    1200    1208    1209    1240
+SPC1     1       123     1361    THRU    1420
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Gravity Loading of Load Set : QStatic_69.3gOoP
+GRAV     2              50.      1.      0.     0.
+$ Gravity Loading of Load Set : QStatic_69.3gIP_0deg
+GRAV     3              50.      0.      1.     0.
+$ Gravity Loading of Load Set : QStatic_69.3gIP_90deg
+GRAV     4              80.      0.      0.     1.
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+INCLUDE '../../Bandeja_Intermedia.bdf'
+$
+ENDDATA
