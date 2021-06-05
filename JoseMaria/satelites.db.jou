@@ -8436,3 +8436,320 @@ res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
 res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 04-Jun-21 12:06:56
+$# Appending to existing journal file 
+$# C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\satelites.db.jou at 04-Jun-21 19:37:57
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Com" // @
+"pleto" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+gm_visibility_widget( " Point 1:376 Curve 1:526 Surface 1:252", FALSE )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 04-Jun-21 22:00:02
+$# Appending to existing journal file 
+$# C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\satelites.db.jou at 05-Jun-21 09:49:47
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Com" // @
+"pleto" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+gm_visibility_widget( " Point 1:376 Curve 1:526 Surface 1:252", FALSE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_X",  @
+"A1:Static Subcase", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+$# Attaching Direct Results Access file: 
+$# "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\Analisis\Estatico\Eje_X\model_quasistatic_x.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/3/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2781 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1:QSTATIC_X"], [ @
+"A1:Static Subcase"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+$# Attaching Direct Results Access file: 
+$# "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\Analisis\Estatico\Eje_Y\model_quasistatic_y.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/3/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2784 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1:QSTATIC_Y"], [ @
+"A2:Static Subcase"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Z",  @
+"A3:Static Subcase", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+$# Attaching Direct Results Access file: 
+$# "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\Analisis\Estatico\Eje_Z\model_quasistatic_z.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/3/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2781 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1:QSTATIC_Z"], [ @
+"A3:Static Subcase"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Z",  @
+"A3:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Z",  @
+"A3:Static Subcase", "Beam Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Z",  @
+"A3:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Bar Stresses", "Minimum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Beam Stresses", "Minimum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Bar Stresses", "Minimum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_aa_set( -62.120541, -4.935260, 160.860535 )
+$#  MSC Random Platform Type = WINNT
+$# Install Location =C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/
+$#  Patran Version = 26.0.758311
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-99IT6RQ(
+$# 681401399729) (Windows 6.2 (Build 9200: Service Pack 0)) at 05-Jun-21 
+$# 11:10:55.
+res_data_load_dbresult( 0, "ENodal", "Scalar", "RMS", "Random-stress-x",  @
+"Shell Stresses", "Von-Mises", "At Z1", "", "AsIs", "DeriveAverage", "Element" @
+, "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["RMS"], ["Random-stress-x"], [ @
+"Shell Stresses"], ["Von-Mises"], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "RMS", "Random-stress-x",  @
+"Bar Stresses", "Combined", "At Point C", "", "AsIs", "DeriveAverage",  @
+"Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["RMS", "RMS", "RMS"], [ @
+"Random-stress-x", "Random-stress-x", "Random-stress-x"], ["Bar Stresses",  @
+"Bar Stresses", "Bar Stresses"], ["Combined", "Combined", "Combined"], [ @
+"At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+$# Working directory is:
+$# STRING working_dir[256] = "C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Sat" // @
+$#    "elite_Completo"
+$# Submiting Patran Random
+$# Path = C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/msc_prandom  
+$# "C:\Us
+$# subcase file C:\Users\jsmve\Documents\NASTRAN\Practica 
+$# 3\Satelite_Completo\model
+$#  was found
+$# 1 subcases found in .xdb file
+$# 1:MODEL SINE4RANDOM VIBRATION Y
+$#  MSC Random Platform Type = WINNT
+random_randps_input.create_randps_file( "C:\Users\jsmve\Documents\NASTRAN\" // @
+"Practica 3\Satelite_Completo\Random-stress-y.rnd", 1, [1], [1], [1.], [0.], [ @
+5], FALSE, ["log"], ["log"] )
+random_rms_select.create_input_file2( "C:\Users\jsmve\Documents\NASTRAN\Pr" // @
+"actica 3\Satelite_Completo\Random-stress-y.inp", "Random-stress-y",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random-stre" // @
+"ss-y.rnd", "C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo" // @
+"\Analisis\Random_MSC\Eje y\model_sine_msc_random_y.xdb", "Stre", 0, 3., "Log" @
+, "C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Analisis\" // @
+"Random_MSC\Eje y" )
+$#  MSC Random Platform Type = WINNT
+patran_random.submit_random( "C:\Program Files\MSC.Software\NaPa_SE\2020\P" // @
+"atran/bin/msc_prandom", ["""C:\Users\jsmve\Documents\NASTRAN\Practica 3\S" // @
+"atelite_Completo\Random-stress-y.inp""", ""], 1 )
+$# Submiting Patran Random
+$# Path = C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/bin/msc_prandom  
+$# "C:\Us
+random_rms_select.check_for_errors( "C:\Users\jsmve\Documents\NASTRAN\Prac" // @
+"tica 3\Satelite_Completo\Random-stress-y.log",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random-stre" // @
+"ss-y.inp" )
+random_rms_select.import_rms_results( "Random-stress-y",  @
+"C:\Users\jsmve\Documents\NASTRAN\Practica 3\Satelite_Completo\Random-stre" // @
+"ss-y.pat" )
+$#  MSC Random Platform Type = WINNT
+$# Create subcase titles...
+$# Create subcase...
+$# Process results file...
+$# Reading res type = Stresses......
+$# Storing Stresses... for 1920 entities, entity type = 34...
+$#  element = cbar 
+$# Store for 1920 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 60 entities, entity type = 2...
+$#  element = cbeam 
+$# Store for 60 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 4720 entities, entity type = 33...
+$#  element = cquad, num_comp = 8
+$# Store for 4720 Stresses... entities complete
+$# Reading res type = Stresses......
+$# Storing Stresses... for 12 entities, entity type = 102...
+$#  element = cbush 
+$# Store for 12 Stresses... entities complete
+$#  Import Complete.
+res_data_load_dbresult( 0, "ENodal", "Scalar", "RMS", "Random-stress-y",  @
+"Shell Stresses", "Von-Mises", "At Z1", "", "AsIs", "DeriveAverage", "Element" @
+, "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["RMS"], ["Random-stress-y"], [ @
+"Shell Stresses"], ["Von-Mises"], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "RMS", "Random-stress-y",  @
+"Bar Stresses", "Combined", "At Point C", "", "AsIs", "DeriveAverage",  @
+"Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["RMS", "RMS", "RMS"], [ @
+"Random-stress-y", "Random-stress-y", "Random-stress-y"], ["Bar Stresses",  @
+"Bar Stresses", "Bar Stresses"], ["Combined", "Combined", "Combined"], [ @
+"At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 05-Jun-21 11:21:18
