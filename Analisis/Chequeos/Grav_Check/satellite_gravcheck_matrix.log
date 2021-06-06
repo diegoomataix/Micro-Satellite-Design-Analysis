@@ -7,7 +7,7 @@ MEM=527MB      $
 MACH='Intel'
 OPER='Windows 10 Home'
 OSV='6.2 9200'
-MODEL='Xeon/2500 (klkgng)'
+MODEL='Xeon/2433 (klkgng)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/engineering software/nastran-patran/satellite_gravcheck_matrix.T18412_55'
-DBS='c:/engineering software/nastran-patran/satellite_gravcheck_matrix.T18412_55'
+SDIR='c:/engineering software/nastran-patran/satellite_gravcheck_matrix.T7408_15'
+DBS='c:/engineering software/nastran-patran/satellite_gravcheck_matrix.T7408_15'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -46,9 +46,9 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                    16275 MB
- Physical memory available:           5925 MB
- Paging file size:                   22931 MB
- Paging file size available:          6039 MB
+ Physical memory available:           2848 MB
+ Paging file size:                   28364 MB
+ Paging file size available:          5503 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
@@ -56,22 +56,22 @@ System configuration:
  Hostname:         klkgng
  Architecture:     win64i8
  Platform:         Intel Windows 10 Home 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/2758
- Clock freq.:      2800 MHz
+ Model:            Xeon/2200
+ Clock freq.:      2467 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
  Config number:    6
  Physical memory:  16275 MB
- Virtual memory:   22931 MB
+ Virtual memory:   28364 MB
  Numeric format:   64-bit little-endian IEEE.
  Bytes per word:   8
  Disk block size:  512 bytes (64 words)
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Fri Jun  4 12:15:55 WEST 2021 
- 12:15:56  Beginning Analysis
+MSC Nastran started  Sun Jun  6 15:43:15 WEST 2021 
+ 15:43:17  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -79,39 +79,39 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 12:15:56  MSC Authorization Information - Checkout Successful (1016, 0)
- 12:15:56  -------------------------------------------------------------
- 12:15:56  Acquired 1 license for Student Edition Nastran
+ 15:43:19  MSC Authorization Information - Checkout Successful (1016, 0)
+ 15:43:19  -------------------------------------------------------------
+ 15:43:19  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 12:15:56  Reading INCLUDE file "../../Satelite.bdf"
- 12:15:56  18419 records read from INCLUDE file "../../Satelite.bdf"
- 12:15:56  33 records read from JID file "c:/users/diego/pictures/nastran/cabecero/2/satellite_gravcheck_matrix.dat"
- 12:15:56  A total of 18452 records were read from 2 files.
+ 15:43:20  Reading INCLUDE file "../../Satelite.bdf"
+ 15:43:20  18419 records read from INCLUDE file "../../Satelite.bdf"
+ 15:43:20  33 records read from JID file "c:/users/diego/pictures/nastran/cabecero/2/satellite_gravcheck_matrix.dat"
+ 15:43:20  A total of 18452 records were read from 2 files.
 
 Processing of bulk data entries is complete.
 
- 12:15:57  Analysis started.
- 12:15:57  Geometry access/verification to CAD part initiated (if needed).
- 12:15:57  Geometry access/verification to CAD part successfully completed (if needed).
- 12:15:57  Finite element model generation started.
- 12:15:57  Finite element model generated 27954 degrees of freedom.
- 12:15:57  Finite element model generation successfully completed.
- 12:15:57  Application of Loads and Boundary Conditions to the finite element model started.
- 12:15:57  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 12:15:58  Solution of the system equations for linear statics started.
- 12:15:58  Solution of the system equations for linear statics successfully completed.
- 12:15:58  Linear static analysis completed.
- 12:15:58  14 records read from JID file "c:/users/diego/pictures/nastran/cabecero/2/satellite_gravcheck_matrix.dat"
- 12:15:58  NSEXIT: EXIT(0)
- 12:15:58  Analysis complete  0
-Real:        2.232 seconds ( 0:00:02.232)
-User:        1.765 seconds ( 0:00:01.765)
-Sys:         0.484 seconds ( 0:00:00.484)
+ 15:43:21  Analysis started.
+ 15:43:21  Geometry access/verification to CAD part initiated (if needed).
+ 15:43:21  Geometry access/verification to CAD part successfully completed (if needed).
+ 15:43:21  Finite element model generation started.
+ 15:43:21  Finite element model generated 27954 degrees of freedom.
+ 15:43:21  Finite element model generation successfully completed.
+ 15:43:21  Application of Loads and Boundary Conditions to the finite element model started.
+ 15:43:22  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 15:43:22  Solution of the system equations for linear statics started.
+ 15:43:22  Solution of the system equations for linear statics successfully completed.
+ 15:43:23  Linear static analysis completed.
+ 15:43:23  14 records read from JID file "c:/users/diego/pictures/nastran/cabecero/2/satellite_gravcheck_matrix.dat"
+ 15:43:23  NSEXIT: EXIT(0)
+ 15:43:23  Analysis complete  0
+Real:        6.320 seconds ( 0:00:06.320)
+User:        1.734 seconds ( 0:00:01.734)
+Sys:         1.046 seconds ( 0:00:01.046)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -127,4 +127,4 @@ Sys:         0.484 seconds ( 0:00:00.484)
  HyperThreading:               On
  Ram:                          16275 Mb
 Can't open the file c:\engineering
-MSC Nastran finished Fri Jun  4 12:15:58 WEST 2021 
+MSC Nastran finished Sun Jun  6 15:43:24 WEST 2021 

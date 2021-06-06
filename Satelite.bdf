@@ -7877,7 +7877,7 @@ CBEAM    20057   11      20061   20062   -1.     0.      0.
 CBEAM    20058   11      20062   20063   -1.     0.      0.
 CBEAM    20059   11      20063   20009   -1.     0.      0.
 $ Elements and Element Properties for region : 2D_Al7075_Panel_1p5mm
-PSHELL   12      1       .0015   1               1
+PSHELL   12      1       .0015   1               1               4.
 $ Pset: "2D_Al7075_Panel_1p5mm" will be imported as: "pshell.12"
 CQUAD4   20060   12      20006   5404    20086   20036
 CQUAD4   20061   12      5404    5405    20087   20086
